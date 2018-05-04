@@ -19,7 +19,7 @@ function genMessage(){
 }
 
 function openWpp(){
-	console.log ('https://api.whatsapp.com/send?text=' + encodeURIComponent($('#url').text()))
+	window.location = ('https://api.whatsapp.com/send?text=' + encodeURIComponent($('#url').text()))
 
 }
 
