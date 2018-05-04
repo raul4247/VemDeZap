@@ -31,5 +31,11 @@
 	font-size: 1em;
 	margin:0 auto;
 	margin-top: 5%;
+}
+
+#btnZap{
+	text-align: center;
+	margin: 0 auto;
+	margin-top:3%;
 	padding-bottom: 5%;
 }
