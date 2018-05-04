@@ -4,8 +4,19 @@
 }
 
 .footer{
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
 	font-size: 1.2em;
+}
+body {
+   min-height: 400px;
+   margin-bottom: 100px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   padding-top: 3%;
+   padding-bottom: 3%;
 }
