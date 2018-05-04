@@ -6,22 +6,13 @@
   <title>Vem de Zap!</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <link rel="stylesheet" href="css/style_index.css">
+  <link rel="stylesheet" href="css/main.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <body>
 
-  <section id="header" class="hero is-meddium is-dark is-bold">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          Vem de Zap
-        </h1>
-        <h2 class="subtitle">
-          Ajudando a conseguir o zap da cremosa desde 2018.
-        </h2>
-      </div>
-    </div>
-  </section>
+  <?php require("components/header.php"); ?>
+  
   <div class="container">
     <div id="cardForm" class="content">
       <div class="card">
@@ -41,15 +32,7 @@
     </div>
   </div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>Chama os criadores no zap:</p>
-      <p>Raul Mansur</p>
-      <p>Lucas Campregher</p>
-    </div>
-  </div>
-</footer>
+  <?php require("components/footer.php"); ?>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>            
 <script type="text/javascript" src="js/materialize.min.js"></script>

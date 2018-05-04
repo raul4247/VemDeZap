@@ -1,0 +1,36 @@
+#header{
+	text-align: center;
+}
+
+.cards{
+	display:none;
+}
+
+#mainCard{
+	text-align: center;
+	margin:0 auto;
+	margin-top:15%;
+	font-size: 4em;
+	color:white;
+}
+
+#textCard{
+	text-align: center;
+	margin:0 auto;
+	color:white;
+	font-size: 19px;
+	width: 50%;
+}
+
+#linkCard{
+	text-align: center;
+	margin:0 auto;
+	color:white;
+	font-size: 1.2em;
+	margin:0 auto;
+	margin-top: 10%;
+}
+
+html{
+	background-color: #25d366;
+}

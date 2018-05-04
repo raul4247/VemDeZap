@@ -1,6 +1,7 @@
 #header{
 	text-align: center;
 }
+
 #cardForm{
 	text-align: center;
 	margin:0 auto;
@@ -8,11 +9,10 @@
 	justify-content: center;
 	margin-top:15%;
 }
-.footer{
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-}
+
 html{
 	background-color: #25d366;
+}
+input{
+	text-align: center;
 }

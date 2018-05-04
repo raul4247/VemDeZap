@@ -4,7 +4,7 @@ function validate(){
 	if(test)
 		form.submit()
 	else{
-		alert("O seu número está inválido.")
+		alert("Pra conquistar o crush você terá que fazer melhor do que isto.")
 		return    
 	}
 }
