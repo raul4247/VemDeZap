@@ -11,6 +11,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118709061-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118709061-1');
+  </script>
+
 </head>
 <body>
 	<?php require("components/header.php"); ?>
