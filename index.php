@@ -26,7 +26,7 @@
 
             <div class="field">
               <div class="control">
-                <input class="input" type="text" name="num" maxlength="15" placeholder="(xx) xxxxx - xxxx">
+                <input class="input telInput" type="tel" name="num" placeholder="(xx) xxxxx - xxxx">
               </div>
             </div>
             <a class="button is-dark" type="button" onclick="validate()" value="Gerar">Gerar</a>
@@ -38,7 +38,8 @@
 
   <?php require("components/footer.php"); ?>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>            
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>          
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script type="text/javascript" src="js/use.js"></script>
 </html>
