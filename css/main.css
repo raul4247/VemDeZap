@@ -1,4 +1,6 @@
-#header{
+.title{
+	font-family: 'Lobster', cursive;
+	font-size: 3.5em;
 }
 
 .footer{
@@ -6,5 +8,4 @@
 	position: absolute;
 	bottom: 0px;
 	font-size: 1.2em;
-	height: 20%;
 }
