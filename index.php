@@ -25,7 +25,7 @@
 
             <div class="field">
               <div class="control">
-                <input class="input"type="tel" name="num" maxlength="15" placeholder="(xx) xxxxx - xxxx">
+                <input class="input" type="text" name="num" maxlength="15" placeholder="(xx) xxxxx - xxxx">
               </div>
             </div>
             <a class="button is-dark" type="button" onclick="validate()" value="Gerar">Gerar</a>

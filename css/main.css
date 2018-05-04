@@ -4,7 +4,8 @@
 }
 
 .footer{
-	font-size: 1.2em;
+	font-size: 1em;
+
 }
 body {
    min-height: 400px;
@@ -12,11 +13,4 @@ body {
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-
-   padding-top: 3%;
-   padding-bottom: 3%;
 }
