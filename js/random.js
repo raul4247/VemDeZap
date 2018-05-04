@@ -1,4 +1,3 @@
-var fraseAtual = '';
 function genMessage(){
 	let frases = ["Para famoso assalto a geladeira na madrugada! 👮 Sou culpado seu poliça noturno!!!! kakakakaka Vem de zap 👌👌👌👌😅😅",
 	"🚨 piuuuuu ✋🏻👮🏾 paradoh ai ✋🏻 voce taah sendu investigado 👀 na operacao Lava Zap 🚓😂 passa p ca seu zap 😎 pra q possamos resolver issooh 😘😘🙊",
@@ -17,11 +16,11 @@ function genMessage(){
 
 	let frase = frases[Math.floor(Math.random()*frases.length)]
 	$("#message").text(frase)
-	fraseAtual = frase
 }
 
 function openWpp(){
-	window.location = ('https://api.whatsapp.com/send?text=' + fraseAtual)
+	console.log ('https://api.whatsapp.com/send?text=' + encodeURIComponent($('#url').text()))
+
 }
 
 genMessage()

@@ -23,7 +23,7 @@
 			<p id="message"></p>
 		</div>
 		<div class="is-hidden-mobile" id="linkCard">
-			<p>Envie para o crush: <a><?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?></a></p>
+			<p>Envie para o crush: <a id="url"><?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?></a></p>
 		</div>
 		<div class="is-hidden-tablet" id="btnZap">
 			<button class="button is-primary" onclick="openWpp()">Chame no zip zop</button>
