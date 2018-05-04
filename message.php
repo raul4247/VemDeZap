@@ -20,8 +20,6 @@
 		</div>
 		<div id="textCard">
 			<p id="message"></p>
-			<p>"nossa bb AUUUUUUUUUUU linda de bonita, gostosa de cremosa, com todo respeito minha vida, nossa fascinou agora em encanto em radicalizo geral ó tu ta de mais mulher qual é seu nome princesa? quantos aninhos cê tem? onde tu moras? q eu vo no resgate pra nois toma um banho de chandon!
-			UATATAU UATATAU"</p>
 		</div>
 		<div id="linkCard">
 			<p>Envie para o crush: <a><?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?></a></p>
