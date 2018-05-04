@@ -7,15 +7,15 @@
 	margin:0 auto;
 	display: flex;
 	justify-content: center;
-	margin-top:15%;
-}
-
-html{
 	background-image: url(../imgs/background.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.card{
+	margin-top:15%;
+	margin-bottom: 15%;
 }
 
 input{
