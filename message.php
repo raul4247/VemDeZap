@@ -29,7 +29,7 @@
 
 	<div class="container cards">
 		<div id="mainCard">
-			<p><?php echo $_GET["num"]; ?></p>
+			<p id="numZap"><?php echo $_GET["num"]; ?></p>
 		</div>
 		<div id="textCard">
 			<p id="message"></p>
@@ -37,8 +37,17 @@
 		<div class="is-hidden-mobile" id="linkCard">
 			<p>Envie para o crush: <a id="url"><?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?></a></p>
 		</div>
+
+		<div id="btnZap">
+			<button class="button is-primary" onclick="msgWpp()">Chamar no zep zoplerson!</button>
+		</div>
+
+		<div id="btnZap">
+			<button class="button is-primary" onclick="redirectHome()">Vem de Zap com o seu número!</button>
+		</div>
+
 		<div class="is-hidden-tablet" id="btnZap">
-			<button class="button is-primary" onclick="openWpp()">Chame no zip zop</button>
+			<button class="button is-primary" onclick="openWpp()">Compatilhe este número no zip zop</button>
 		</div>
 	</div>
 	
