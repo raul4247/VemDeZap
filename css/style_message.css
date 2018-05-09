@@ -2,40 +2,40 @@
 	text-align: center;
 }
 
+#url{
+	display:none;
+}
+
 .cards{
 	display:none;
-	background-color:#25d366;
+	padding-bottom:1%; 
+	background-image: url(../imgs/background_blur.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #mainCard{
 	text-align: center;
 	margin:0 auto;
 	color:white;
-	font-size: 2.5em;
-	margin-bottom: 10%;
+	font-size: 3em;
+	padding-top:6%;
 }
 
 #textCard{
 	text-align: center;
 	margin:0 auto;
-	margin-top:3%;
 	color:white;
-	font-size: 1em;
-	width: 50%;
+	font-size: 1.2em;
+	margin-top: 6%;
+	margin-bottom: 13%;
+	width: 70%;
 }
-
-#linkCard{
-	text-align: center;
-	margin:0 auto;
-	color:white;
-	font-size: 1em;
-	margin:0 auto;
-	margin-top: 5%;
-}
-
-#btnZap{
+.btnZap{
+	width: 16em;
 	text-align: center;
 	margin: 0 auto;
-	margin-top:3%;
-	padding-bottom: 3%;
+	margin-top: 1%;
 }

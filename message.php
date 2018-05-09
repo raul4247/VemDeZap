@@ -35,18 +35,17 @@
 		<div id="textCard">
 			<p id="message"></p>
 		</div>
-		<div class="is-hidden-mobile" id="linkCard">
-			<p>Envie para o crush: <a id="url"><?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?></a></p>
+		<div id="url">
+			<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
 		</div>
-
-		<div id="btnZap">
-			<button class="button is-primary" onclick="msgWpp()">Inicie uma conversa no zap</button>
+		<div class="btnZap">
+			<button class="button is-primary is-fullwidth" onclick="msgWpp()">Inicie uma conversa no zap</button>
 		</div>
-		<div class="is-hidden-tablet" id="btnZap">
-			<button class="button is-primary" onclick="openWpp()">Compatilhe esta página</button>
+		<div class="btnZap">
+			<button class="button is-primary is-fullwidth" onclick="openWpp()">Compatilhe esta página</button>
 		</div>
-		<div id="btnZap">
-			<button class="button is-primary" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
+		<div class="btnZap">
+			<button class="button is-primary is-fullwidth" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
 		</div>
 	</div>
 	<?php require("components/footer.php"); ?>
