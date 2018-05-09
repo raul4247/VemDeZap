@@ -38,14 +38,16 @@
 		<div id="url">
 			<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
 		</div>
-		<div class="btnZap">
-			<button class="button is-primary is-fullwidth" onclick="msgWpp()">Inicie uma conversa no zap</button>
-		</div>
-		<div class="btnZap">
-			<button class="button is-primary is-fullwidth" onclick="openWpp()">Compatilhe esta página</button>
-		</div>
-		<div class="btnZap">
-			<button class="button is-primary is-fullwidth" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
+		<div id="btns">
+			<div class="btnZap">
+				<button class="button is-primary is-fullwidth" onclick="msgWpp()">Inicie uma conversa no zap</button>
+			</div>
+			<div class="btnZap">
+				<button class="button is-primary is-fullwidth" onclick="openWpp()">Compatilhe esta página</button>
+			</div>
+			<div class="btnZap">
+				<button class="button is-primary is-fullwidth" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
+			</div>
 		</div>
 	</div>
 	<?php require("components/footer.php"); ?>
