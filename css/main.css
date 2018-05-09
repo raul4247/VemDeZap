@@ -12,10 +12,15 @@ body {
 	font-size: 1em;
   bottom: 0;
   left: 0;
-   width:100%;
-}
+  width:100%;
 
-/* IE 6 */
+}
+.footer a{color: black;}
+.footer a:link{color: black;}
+.footer a:visited {color: black;}
+.footer a:hover {color: gray;}
+.footer a:active {color: black;}
+
 * html .footer {
    position:absolute;
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
