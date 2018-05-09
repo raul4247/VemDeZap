@@ -1,5 +1,5 @@
 <?php
-	echo'<section id="header" class="hero is-meddium is-bold">
+	echo'<section id="header" class="hero is-meddium is-primary is-bold">
 		<div class="hero-body">
 			<div class="container">
 				<h1 class="title">

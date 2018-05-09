@@ -4,9 +4,6 @@ body {
    font-family: 'Montserrat', sans-serif;
 }
 
-#header{
-  background: linear-gradient(to bottom right,#128C7E,#1CD6C1);
-}
 .title{
   font-family: 'Lobster', cursive;
   font-size: 3.5em;
