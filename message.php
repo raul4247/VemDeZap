@@ -40,15 +40,13 @@
 		</div>
 
 		<div id="btnZap">
-			<button class="button is-primary" onclick="msgWpp()">Chamar no zep zoplerson!</button>
+			<button class="button is-primary" onclick="msgWpp()">Inicie uma conversa no zap</button>
 		</div>
-
-		<div id="btnZap">
-			<button class="button is-primary" onclick="redirectHome()">Vem de Zap com o seu número!</button>
-		</div>
-
 		<div class="is-hidden-tablet" id="btnZap">
-			<button class="button is-primary" onclick="openWpp()">Compatilhe este número no zip zop</button>
+			<button class="button is-primary" onclick="openWpp()">Compatilhe esta página</button>
+		</div>
+		<div id="btnZap">
+			<button class="button is-primary" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
 		</div>
 	</div>
 	<?php require("components/footer.php"); ?>

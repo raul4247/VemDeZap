@@ -6,7 +6,7 @@
 					<a href="index.php">Vem de Zap</a>
 				</h1>
 				<h2 class="subtitle">
-					Ajudando a conseguir o zap da cremosa desde 2018.
+					Compartilhando o zap com a cremosa desde 2018.
 				</h2>
 			</div>
 		</div>

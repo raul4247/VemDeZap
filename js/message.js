@@ -5,7 +5,7 @@ $(document).ready(function () {
 function genMessage(){
 	let frases = ["Para famoso assalto a geladeira na madrugada! 👮 Sou culpado seu poliça noturno!!!! kakakakaka\n Vem de zap 👌👌👌👌😅😅", 
               "🚨 piuuuuu ✋🏻👮🏾 paradoh ai ✋🏻 voce taah sendu investigado 👀 na operacao Lava Zap 🚓😂\n passa p ca seu zap 😎 pra q possamos resolver issooh 😘😘🙊", 
-              "⛅Previsao do tempo no Zap ⛅\n Sobre o Tempo?? Eh o q vc Ta perdendo Sem me Chama\n 👎🏽 E o Clima?? O Clima Eh de Putaria 😏😈😈👅\n Vem de Zap✌🔝", 
+              "⛅Previsao do tempo no Zap ⛅\n Sobre o Tempo?? Eh o q vc Ta perdendo Sem me Chama\n 👎🏽 E o Clima?? O Clima Eh de Sacanagem 😏😈😈👅\n Vem de Zap✌🔝", 
               "🚨URGENTE🚨\n Deu no Jornal Nacional ontem 📰🇧🇷 o Governo 👀🌝 passará a MULTAR 👮🏻🤚 quem Não vir de ZAP 🙈😂🆒h Não quer Pagar Multa 😜❓Vem de Zap 😉👌🏻" , 
               "parada aí ✋✋✋\n vc esta detida 🚔😂😈👮\n a fiança custa 11 ✋👮💰 os 11 numeros do seu zap 🙊" ,
               "‼PARADA. AI🖐🆘\n 🤔voCE SABIA. QUE PAZ AO CONTRARIO EH ZAP??..😵\n se voce eh A FAVOR DA pAZ . PASSA O ZAP. 😝🙏 \nque DEUS abençoe 😘✅",
