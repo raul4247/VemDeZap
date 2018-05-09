@@ -11,9 +11,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <script>
-   
-  </script>
 </head>
 <body>
   <?php require("components/header.php"); ?>
@@ -40,5 +37,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>          
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118709061-1"></script>
+<script type="text/javascript" src="js/googleAddOns.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </html>

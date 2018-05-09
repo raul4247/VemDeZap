@@ -20,12 +20,3 @@ jQuery("input.telInput").mask("(99) 99999-9999").focusout(function(event){
     else
         element.mask("(99) 9999-9999?9")
 })
-
-function analytics(){
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-118709061-1');
-}
-
-analytics()
