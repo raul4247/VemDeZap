@@ -3,7 +3,7 @@
 		<div class="hero-body">
 			<div class="container">
 				<h1 class="title">
-					<a href="index.php">Vem de Zap</a>
+					<a href="index.php"><img src="imgs/	logo.png" class="center"></a>
 				</h1>
 				<h2 class="subtitle">
 					Compartilhando o zap com a cremosa desde 2018.

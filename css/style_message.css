@@ -33,12 +33,20 @@
 	margin-bottom: 13%;
 	width: 70%;
 }
+
 .btnZap{
 	width: 16em;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 1%;
 }
+
 #btns{
 	padding-bottom: 7%;
+}
+
+#warning{
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
 }

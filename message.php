@@ -30,7 +30,7 @@
 	<?php require("components/header.php"); ?>
 	<div class="container cards">
 		<div id="mainCard">
-			<p id="numZap"><?php echo $_GET["num"]; ?></p>
+			<p id="numZap">📞 <?php echo $_GET["num"]; ?></p>
 		</div>
 		<div id="textCard">
 			<p id="message"></p>
@@ -49,6 +49,7 @@
 				<button class="button is-primary is-fullwidth" onclick="redirectHome()">Crie seu "Vem de Zap"</button>
 			</div>
 		</div>
+		<p id="warning">*Recarregue a página para ver uma nova mensagem!</p>
 	</div>
 	<?php require("components/footer.php"); ?>
 </body>
