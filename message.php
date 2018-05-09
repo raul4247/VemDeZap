@@ -25,6 +25,7 @@
 			enable_page_level_ads: true
 		});
 	</script>
+	<meta name="google-site-verification" content="dmpqFGCeXffjsAWHZLLDC60mpAUxR295O3VslnEUuNw" />
 </head>
 <body>
 	<?php require("components/header.php"); ?>
